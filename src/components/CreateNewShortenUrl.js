@@ -10,6 +10,7 @@ export function CreateNewShortenUrl() {
         setUrl(e.target.value);
     };
 
+    
     function createNewShortUrl() {
         if (url === '') {
             alert('Enter Url Value')
