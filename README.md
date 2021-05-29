@@ -37,7 +37,7 @@ Prerequisite : Git , npm
     * Click on Show all urls
     
     Result :
-    All url details with accecc count will be displayed
+    All url details with access count will be displayed
     
 3) Short Url Redirection
     
