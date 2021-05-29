@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import '../index.css';
 
 export function ShowAllUrl(data) {
 
@@ -22,34 +22,41 @@ export function ShowAllUrl(data) {
     useEffect(loadDatas, [data]);
 
     return (
-        <div>
-            <h1>Show All Urls</h1>
-            <style>{"table,th,tr,td{border:2px solid blue;}"}</style>
-            {urls.urlList != null ?
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Original Url </th>
-                            <th>Short Url</th>
-                            <th>Access count</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {
-                            urls.urlList.map(url => (
-                                <tr key={url.id}>
-                                    <td>{url.originalUrl}</td>
-                                    <td>{url.shortUrl}</td>
-                                    <td>{url.accessCount}</td>
+        <div className='container' style={{ marginTop: '40px' }}>
+            <div className='row'>
+                <div className=' create-container col-lg-9 offset-lg-2'>
+                    <div className='row justify-content-center' style={{ paddingTop: '30px' }}>
+                        <div className='col-lg-8 offset-lg-4'>
+                            <h4>Show All Urls</h4>
+                        </div>
+                    </div>
+            
+                    {urls.urlList != null ?
+                        <table id="urltable">
+                            <thead>
+                                <tr>
+                                    <th>Original Url </th>
+                                    <th>Short Url</th>
+                                    <th>Access count</th>
                                 </tr>
-                            )
-                            )}
-                    </tbody>
-                </table>
-                : <p>{urls.responseDescription}</p>
-            }
-
-        </div>
+                            </thead>
+                            <tbody>
+                                {
+                                    urls.urlList.map(url => (
+                                        <tr key={url.id}>
+                                            <td>{url.originalUrl}</td>
+                                            <td>{url.shortUrl}</td>
+                                            <td>{url.accessCount}</td>
+                                        </tr>
+                                    )
+                                    )}
+                            </tbody>
+                        </table>
+                        : <p>{urls.responseDescription}</p>
+                    }
+                </div>
+            </div>
+        </div >
     )
 
 }

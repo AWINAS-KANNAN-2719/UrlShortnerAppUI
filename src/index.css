@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .button {
   padding: 15px 25px;
   font-size: 24px;
@@ -73,7 +76,6 @@ code {
 .create-btn-label {
   width: 90px;
   height: 24px;
-  font-family: Roboto;
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -82,4 +84,27 @@ code {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+}
+
+#urltable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#urltable td, #urltable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#urltable tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+#urltable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }
