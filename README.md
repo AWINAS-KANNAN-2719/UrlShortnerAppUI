@@ -26,7 +26,7 @@ Prerequisite : Git , npm
    * http://localhost:3000/
    * Click in Create new shorten url button
    * Enter URL in New Url test box
-   * Click Add new Url Button to create a new short url
+   * Click Create to create a new short url
    
    Result :
    For the original url , new short url will be created and displayed in the page
