@@ -8,6 +8,8 @@
 
 # Stack
 1) ReactJs
+2) Bootstarp 5
+3) css
 
 # Steps to Run the application
 Prerequisite : Git , npm
