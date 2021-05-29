@@ -30,7 +30,7 @@ export function ShowAllUrl(data) {
                             <h4>Show All Urls</h4>
                         </div>
                     </div>
-            
+
                     {urls.urlList != null ?
                         <table id="urltable">
                             <thead>
@@ -52,7 +52,14 @@ export function ShowAllUrl(data) {
                                     )}
                             </tbody>
                         </table>
-                        : <p>{urls.responseDescription}</p>
+                        :
+                        <div className='row' style={{ paddingTop: '20px' }}>
+                            <div className='offset-lg-3 col-lg-2'>
+                                <label><b>Error :  </b> </label>
+                            </div>
+                            {urls.responseDescription}
+                        </div>
+
                     }
                 </div>
             </div>
