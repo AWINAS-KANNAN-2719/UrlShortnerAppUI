@@ -18,3 +18,31 @@ Prerequisite : Git , npm
 4) npm start
 
 **The Application will run in localhost:3000**
+
+# Functionality
+
+1) Create new short url
+   
+   * http://localhost:3000/
+   * Click in Create new shorten url button
+   * Enter URL in New Url test box
+   * Click Add new Url Button to create a new short url
+   
+   Result :
+   For the original url , new short url will be created and displayed in the page
+   
+ 2) Retrieve all url details
+    
+    * http://localhost:3000/
+    * Click on Show all urls
+    
+    Result :
+    All url details with accecc count will be displayed
+    
+3) Short Url Redirection
+    
+    * Enter Short Url ( http://localhost:3000/evgb1h81 )
+    * If the short url is valid , it will be redirected to original url
+    * If the short url is invalid , then home page of application will be shown
+
+
