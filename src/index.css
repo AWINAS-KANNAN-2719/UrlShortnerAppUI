@@ -11,3 +11,75 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #5986c0}
+
+.button:active {
+  background-color: #1787f0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.input-background {
+  width: 100% !important;
+  height: 40px;
+  border-radius: 8px;
+  border: solid 1px #d7dde1;
+  background-color: #f2faf7;
+  padding: 8px;
+  text-align: left !important;
+}
+
+.Input-text-label {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.create-container {
+  width: 100%;
+  height: fit-content;
+  border-radius: 16px;
+  box-shadow: 0 0 16px 8px rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.create-btn-background {
+  width: 138px;
+  height: 40px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: #04AA6D;
+}
+
+.create-btn-label {
+  width: 90px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
