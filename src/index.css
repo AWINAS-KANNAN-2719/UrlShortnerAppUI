@@ -28,7 +28,7 @@ div {
   box-shadow: 0 9px #999;
 }
 
-.button:hover {background-color: #5986c0}
+.button:hover {background-color: #4a179c}
 
 .button:active {
   background-color: #1787f0;
@@ -85,6 +85,8 @@ div {
   text-align: center;
   color: #ffffff;
 }
+
+.create-btn-background:hover {background-color: #4a179c}
 
 #urltable {
   font-family: Arial, Helvetica, sans-serif;
