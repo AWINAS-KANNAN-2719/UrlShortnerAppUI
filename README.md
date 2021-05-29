@@ -17,4 +17,4 @@ Prerequisite : Git , npm
 3) npm install
 4) npm start
 
-**The Applicaition will run in localhost:3000**
+**The Application will run in localhost:3000**
